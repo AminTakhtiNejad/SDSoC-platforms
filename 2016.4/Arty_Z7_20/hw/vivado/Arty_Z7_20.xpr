@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2016.4_sdx (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
+<Project Version="7" Minor="17" Path="Arty_Z7_20.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="63295f65134149e69e567d00ed9a8645"/>
+    <Option Name="Part" Val="xc7z020clg400-1"/>
+    <Option Name="TargetLanguage" Val="VHDL"/>
+    <Option Name="BoardPart" Val="digilentinc.com:arty-z7-20:part0:1.0"/>
+    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/Arty_Z7_20.ipdefs/vivado-boards/new/board_files"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/Arty_Z7_20.ipdefs/repo_0"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPCachePermission" Val="read"/>
+    <Option Name="IPCachePermission" Val="write"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="DSABoardId" Val="arty-z7-20"/>
+    <Option Name="DSANumComputeUnits" Val="16"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/bd/Arty_Z7_20/Arty_Z7_20.bd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/Arty_Z7_20.bd"/>
+          <Attr Name="ImportTime" Val="1488218694"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_clk_wiz_0_0/Arty_Z7_20_clk_wiz_0_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_clk_wiz_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_xlconstant_0_0/Arty_Z7_20_xlconstant_0_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_xlconstant_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_xlconcat_1_0/Arty_Z7_20_xlconcat_1_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_xlconcat_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_xlconcat_0_0/Arty_Z7_20_xlconcat_0_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_xlconcat_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_xadc_wiz_0_0/Arty_Z7_20_xadc_wiz_0_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_xadc_wiz_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_v_tc_0_0/Arty_Z7_20_v_tc_0_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_v_tc_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_v_axi4s_vid_out_0_0/Arty_Z7_20_v_axi4s_vid_out_0_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_v_axi4s_vid_out_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_rst_processing_system7_0_142M_0/Arty_Z7_20_rst_processing_system7_0_142M_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_rst_processing_system7_0_142M_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_rst_processing_system7_0_100M_0/Arty_Z7_20_rst_processing_system7_0_100M_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_rst_processing_system7_0_100M_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_rgb2dvi_0_0/Arty_Z7_20_rgb2dvi_0_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_rgb2dvi_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_xbar_0/Arty_Z7_20_xbar_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_xbar_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_processing_system7_0_0/Arty_Z7_20_processing_system7_0_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_processing_system7_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_axis_subset_converter_0_0/Arty_Z7_20_axis_subset_converter_0_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_axis_subset_converter_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_axi_vdma_0_0/Arty_Z7_20_axi_vdma_0_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_axi_vdma_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_axi_gpio_sw_0/Arty_Z7_20_axi_gpio_sw_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_axi_gpio_sw_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_axi_gpio_shield_2_0/Arty_Z7_20_axi_gpio_shield_2_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_axi_gpio_shield_2_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_axi_gpio_shield_1_0/Arty_Z7_20_axi_gpio_shield_1_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_axi_gpio_shield_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_axi_gpio_led_0/Arty_Z7_20_axi_gpio_led_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_axi_gpio_led_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_axi_gpio_hdmi_0/Arty_Z7_20_axi_gpio_hdmi_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_axi_gpio_hdmi_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_axi_dynclk_0_0/Arty_Z7_20_axi_dynclk_0_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_axi_dynclk_0_0"/>
+        </CompFileExtendedInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hdl/Arty_Z7_20_wrapper.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/hdl/Arty_Z7_20_wrapper.vhd"/>
+          <Attr Name="ImportTime" Val="1488218694"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="Arty_Z7_20_wrapper"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/imports/constraints/ARTY_Z7.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../git/digilent/Arty-Z7-20-base/src/constraints/ARTY_Z7.xdc"/>
+          <Attr Name="ImportTime" Val="1487367729"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_axi_dynclk_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_axi_dynclk_0_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_axi_dynclk_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_axi_gpio_led_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_axi_gpio_led_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_axi_gpio_led_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_axi_gpio_shield_1_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_axi_gpio_shield_1_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_axi_gpio_shield_1_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_axi_gpio_hdmi_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_axi_gpio_hdmi_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_axi_gpio_hdmi_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_axis_subset_converter_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_axis_subset_converter_0_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_axis_subset_converter_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_axi_gpio_shield_2_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_axi_gpio_shield_2_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_axi_gpio_shield_2_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_processing_system7_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_processing_system7_0_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_processing_system7_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_axi_gpio_sw_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_axi_gpio_sw_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_axi_gpio_sw_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_v_tc_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_v_tc_0_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_v_tc_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_axi_vdma_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_axi_vdma_0_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_axi_vdma_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_xbar_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_xbar_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_xbar_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_rst_processing_system7_0_100M_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_rst_processing_system7_0_100M_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_rst_processing_system7_0_100M_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_v_axi4s_vid_out_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_v_axi4s_vid_out_0_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_v_axi4s_vid_out_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_rgb2dvi_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_rgb2dvi_0_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_rgb2dvi_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_rst_processing_system7_0_142M_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_rst_processing_system7_0_142M_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_rst_processing_system7_0_142M_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_xadc_wiz_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_xadc_wiz_0_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_xadc_wiz_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_xlconcat_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_xlconcat_0_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_xlconcat_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_xlconstant_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_xlconstant_0_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_xlconstant_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_xlconcat_1_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_xlconcat_1_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_xlconcat_1_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Arty_Z7_20_clk_wiz_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Arty_Z7_20_clk_wiz_0_0">
+      <Config>
+        <Option Name="TopModule" Val="Arty_Z7_20_clk_wiz_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  
+  <Runs Version="1" Minor="10">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015"/>
+        <Step Id="synth_design">
+          <Option Id="Directive">0</Option>
+          <Option Id="FlattenHierarchy">1</Option>
+          <Option Id="FsmExtraction">0</Option>
+        </Step>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axi_dynclk_0_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_axi_dynclk_0_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axi_dynclk_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_axi_dynclk_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axi_gpio_led_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_axi_gpio_led_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axi_gpio_led_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_axi_gpio_led_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axi_gpio_shield_1_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_axi_gpio_shield_1_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axi_gpio_shield_1_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_axi_gpio_shield_1_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axi_gpio_hdmi_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_axi_gpio_hdmi_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axi_gpio_hdmi_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_axi_gpio_hdmi_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axis_subset_converter_0_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_axis_subset_converter_0_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axis_subset_converter_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_axis_subset_converter_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axi_gpio_shield_2_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_axi_gpio_shield_2_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axi_gpio_shield_2_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_axi_gpio_shield_2_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_processing_system7_0_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_processing_system7_0_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_processing_system7_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_processing_system7_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axi_gpio_sw_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_axi_gpio_sw_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axi_gpio_sw_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_axi_gpio_sw_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_v_tc_0_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_v_tc_0_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_v_tc_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_v_tc_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axi_vdma_0_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_axi_vdma_0_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axi_vdma_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_axi_vdma_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_xbar_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_xbar_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_xbar_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_xbar_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_rst_processing_system7_0_100M_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_rst_processing_system7_0_100M_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_rst_processing_system7_0_100M_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_rst_processing_system7_0_100M_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_v_axi4s_vid_out_0_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_v_axi4s_vid_out_0_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_v_axi4s_vid_out_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_v_axi4s_vid_out_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_rgb2dvi_0_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_rgb2dvi_0_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_rgb2dvi_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_rgb2dvi_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_rst_processing_system7_0_142M_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_rst_processing_system7_0_142M_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_rst_processing_system7_0_142M_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_rst_processing_system7_0_142M_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_xadc_wiz_0_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_xadc_wiz_0_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_xadc_wiz_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_xadc_wiz_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_xlconcat_0_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_xlconcat_0_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_xlconcat_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_xlconcat_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_xlconstant_0_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_xlconstant_0_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_xlconstant_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_xlconstant_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_xlconcat_1_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_xlconcat_1_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_xlconcat_1_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_xlconcat_1_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_clk_wiz_0_0_synth_1" Type="Ft3:Synth" SrcSet="Arty_Z7_20_clk_wiz_0_0" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_clk_wiz_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Arty_Z7_20_clk_wiz_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design">
+          <Option Id="Directive">4</Option>
+        </Step>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design">
+          <Option Id="Directive">14</Option>
+        </Step>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design">
+          <Option Id="Directive">5</Option>
+        </Step>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axi_dynclk_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axi_dynclk_0_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_axi_dynclk_0_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axi_gpio_led_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axi_gpio_led_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_axi_gpio_led_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axi_gpio_shield_1_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axi_gpio_shield_1_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_axi_gpio_shield_1_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axi_gpio_hdmi_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axi_gpio_hdmi_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_axi_gpio_hdmi_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axis_subset_converter_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axis_subset_converter_0_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_axis_subset_converter_0_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axi_gpio_shield_2_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axi_gpio_shield_2_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_axi_gpio_shield_2_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_processing_system7_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_processing_system7_0_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_processing_system7_0_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axi_gpio_sw_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axi_gpio_sw_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_axi_gpio_sw_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_v_tc_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_v_tc_0_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_v_tc_0_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_axi_vdma_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_axi_vdma_0_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_axi_vdma_0_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_xbar_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_xbar_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_xbar_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_rst_processing_system7_0_100M_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_rst_processing_system7_0_100M_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_rst_processing_system7_0_100M_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_v_axi4s_vid_out_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_v_axi4s_vid_out_0_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_v_axi4s_vid_out_0_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_rgb2dvi_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_rgb2dvi_0_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_rgb2dvi_0_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_rst_processing_system7_0_142M_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_rst_processing_system7_0_142M_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_rst_processing_system7_0_142M_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_xadc_wiz_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_xadc_wiz_0_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_xadc_wiz_0_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_xlconcat_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_xlconcat_0_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_xlconcat_0_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_xlconstant_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_xlconstant_0_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_xlconstant_0_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_xlconcat_1_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_xlconcat_1_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_xlconcat_1_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="Arty_Z7_20_clk_wiz_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Arty_Z7_20_clk_wiz_0_0" Description="Default settings for Implementation." SynthRun="Arty_Z7_20_clk_wiz_0_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+  </Runs>
+</Project>

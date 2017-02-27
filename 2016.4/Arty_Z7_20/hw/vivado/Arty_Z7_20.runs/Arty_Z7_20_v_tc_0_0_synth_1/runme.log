@@ -1,0 +1,63 @@
+
+*** Running vivado
+    with args -log Arty_Z7_20_v_tc_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Arty_Z7_20_v_tc_0_0.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Users/sbobrowicz/AppData/Roaming/Xilinx/Vivado/init.tcl'
+source Arty_Z7_20_v_tc_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 371.523 ; gain = 161.754
+INFO: [Synth 8-638] synthesizing module 'Arty_Z7_20_v_tc_0_0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_v_tc_0_0/synth/Arty_Z7_20_v_tc_0_0.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-256] done synthesizing module 'Arty_Z7_20_v_tc_0_0' (11#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_v_tc_0_0/synth/Arty_Z7_20_v_tc_0_0.vhd:96]
+Finished RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 529.387 ; gain = 319.617
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 529.387 ; gain = 319.617
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.231 . Memory (MB): peak = 765.508 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:31 ; elapsed = 00:00:45 . Memory (MB): peak = 765.508 ; gain = 555.738
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:31 ; elapsed = 00:00:45 . Memory (MB): peak = 765.508 ; gain = 555.738
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:45 . Memory (MB): peak = 765.508 ; gain = 555.738
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:37 ; elapsed = 00:00:53 . Memory (MB): peak = 765.508 ; gain = 555.738
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:01:07 . Memory (MB): peak = 765.508 ; gain = 555.738
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:58 ; elapsed = 00:01:23 . Memory (MB): peak = 765.508 ; gain = 555.738
+Finished Timing Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:01:25 . Memory (MB): peak = 765.508 ; gain = 555.738
+Finished Technology Mapping : Time (s): cpu = 00:01:02 ; elapsed = 00:01:29 . Memory (MB): peak = 765.508 ; gain = 555.738
+Finished IO Insertion : Time (s): cpu = 00:01:04 ; elapsed = 00:01:30 . Memory (MB): peak = 765.508 ; gain = 555.738
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:04 ; elapsed = 00:01:30 . Memory (MB): peak = 765.508 ; gain = 555.738
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:04 ; elapsed = 00:01:31 . Memory (MB): peak = 765.508 ; gain = 555.738
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:04 ; elapsed = 00:01:31 . Memory (MB): peak = 765.508 ; gain = 555.738
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:04 ; elapsed = 00:01:31 . Memory (MB): peak = 765.508 ; gain = 555.738
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:04 ; elapsed = 00:01:31 . Memory (MB): peak = 765.508 ; gain = 555.738
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    31|
+|2     |LUT1   |    84|
+|3     |LUT2   |    47|
+|4     |LUT3   |   536|
+|5     |LUT4   |    53|
+|6     |LUT5   |   150|
+|7     |LUT6   |   396|
+|8     |MUXF7  |   134|
+|9     |SRL16E |     6|
+|10    |FDRE   |  2738|
+|11    |FDSE   |   184|
++------+-------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:04 ; elapsed = 00:01:31 . Memory (MB): peak = 765.508 ; gain = 555.738
+get_clocks: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1187.953 ; gain = 422.445
+synth_design: Time (s): cpu = 00:01:05 ; elapsed = 00:01:31 . Memory (MB): peak = 1189.379 ; gain = 895.691

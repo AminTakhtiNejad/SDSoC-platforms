@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+  [bootloader]<freertos0/boot/fsbl.elf>
+  <bitstream>
+  <elf>
+}

@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Feb 24 15:59:43 2017
+# Process ID: 5608
+# Current directory: C:/sam_work/git/digilent/Arty-Z7-20-base/proj/Arty_Z7_20.runs/Arty_Z7_20_axis_subset_converter_0_0_synth_1
+# Command line: vivado.exe -log Arty_Z7_20_axis_subset_converter_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Arty_Z7_20_axis_subset_converter_0_0.tcl
+# Log file: C:/sam_work/git/digilent/Arty-Z7-20-base/proj/Arty_Z7_20.runs/Arty_Z7_20_axis_subset_converter_0_0_synth_1/Arty_Z7_20_axis_subset_converter_0_0.vds
+# Journal file: C:/sam_work/git/digilent/Arty-Z7-20-base/proj/Arty_Z7_20.runs/Arty_Z7_20_axis_subset_converter_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Users/sbobrowicz/AppData/Roaming/Xilinx/Vivado/init.tcl'
+source Arty_Z7_20_axis_subset_converter_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 373.875 ; gain = 163.348
+INFO: [Synth 8-638] synthesizing module 'Arty_Z7_20_axis_subset_converter_0_0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/synth/Arty_Z7_20_axis_subset_converter_0_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'top_Arty_Z7_20_axis_subset_converter_0_0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/top_Arty_Z7_20_axis_subset_converter_0_0.v:60]
+INFO: [Synth 8-638] synthesizing module 'axis_subset_converter_v1_1_11_core' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/8a5f/hdl/axis_subset_converter_v1_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axis_subset_converter_v1_1_11_core' (1#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/8a5f/hdl/axis_subset_converter_v1_1_vl_rfs.v:62]
+INFO: [Synth 8-638] synthesizing module 'tdata_Arty_Z7_20_axis_subset_converter_0_0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/tdata_Arty_Z7_20_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tdata_Arty_Z7_20_axis_subset_converter_0_0' (2#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/tdata_Arty_Z7_20_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tuser_Arty_Z7_20_axis_subset_converter_0_0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/tuser_Arty_Z7_20_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tuser_Arty_Z7_20_axis_subset_converter_0_0' (3#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/tuser_Arty_Z7_20_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tid_Arty_Z7_20_axis_subset_converter_0_0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/tid_Arty_Z7_20_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tid_Arty_Z7_20_axis_subset_converter_0_0' (4#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/tid_Arty_Z7_20_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tdest_Arty_Z7_20_axis_subset_converter_0_0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/tdest_Arty_Z7_20_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tdest_Arty_Z7_20_axis_subset_converter_0_0' (5#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/tdest_Arty_Z7_20_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tstrb_Arty_Z7_20_axis_subset_converter_0_0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/tstrb_Arty_Z7_20_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tstrb_Arty_Z7_20_axis_subset_converter_0_0' (6#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/tstrb_Arty_Z7_20_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tkeep_Arty_Z7_20_axis_subset_converter_0_0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/tkeep_Arty_Z7_20_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tkeep_Arty_Z7_20_axis_subset_converter_0_0' (7#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/tkeep_Arty_Z7_20_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tlast_Arty_Z7_20_axis_subset_converter_0_0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/tlast_Arty_Z7_20_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tlast_Arty_Z7_20_axis_subset_converter_0_0' (8#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/tlast_Arty_Z7_20_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'top_Arty_Z7_20_axis_subset_converter_0_0' (9#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/hdl/top_Arty_Z7_20_axis_subset_converter_0_0.v:60]
+INFO: [Synth 8-256] done synthesizing module 'Arty_Z7_20_axis_subset_converter_0_0' (10#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axis_subset_converter_0_0/synth/Arty_Z7_20_axis_subset_converter_0_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 411.309 ; gain = 200.781
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 411.309 ; gain = 200.781
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.121 . Memory (MB): peak = 632.578 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 632.578 ; gain = 422.051
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 632.578 ; gain = 422.051
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 632.578 ; gain = 422.051
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 632.578 ; gain = 422.051
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 632.578 ; gain = 422.051
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 664.691 ; gain = 454.164
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 664.691 ; gain = 454.164
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 674.355 ; gain = 463.828
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 674.355 ; gain = 463.828
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 674.355 ; gain = 463.828
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 674.355 ; gain = 463.828
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 674.355 ; gain = 463.828
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 674.355 ; gain = 463.828
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 674.355 ; gain = 463.828
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 674.355 ; gain = 463.828
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 697.773 ; gain = 403.965

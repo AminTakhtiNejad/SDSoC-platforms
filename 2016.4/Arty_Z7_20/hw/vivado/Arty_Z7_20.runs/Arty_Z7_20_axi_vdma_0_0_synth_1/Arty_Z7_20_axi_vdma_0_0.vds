@@ -1,0 +1,216 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Feb 24 16:00:54 2017
+# Process ID: 8660
+# Current directory: C:/sam_work/git/digilent/Arty-Z7-20-base/proj/Arty_Z7_20.runs/Arty_Z7_20_axi_vdma_0_0_synth_1
+# Command line: vivado.exe -log Arty_Z7_20_axi_vdma_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Arty_Z7_20_axi_vdma_0_0.tcl
+# Log file: C:/sam_work/git/digilent/Arty-Z7-20-base/proj/Arty_Z7_20.runs/Arty_Z7_20_axi_vdma_0_0_synth_1/Arty_Z7_20_axi_vdma_0_0.vds
+# Journal file: C:/sam_work/git/digilent/Arty-Z7-20-base/proj/Arty_Z7_20.runs/Arty_Z7_20_axi_vdma_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Users/sbobrowicz/AppData/Roaming/Xilinx/Vivado/init.tcl'
+source Arty_Z7_20_axi_vdma_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 384.293 ; gain = 174.648
+INFO: [Synth 8-638] synthesizing module 'Arty_Z7_20_axi_vdma_0_0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axi_vdma_0_0/synth/Arty_Z7_20_axi_vdma_0_0.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:69480]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_rst_module' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:16457]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reset' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:14862]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (1#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized0' (1#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized1' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized1' (1#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized2' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized2' (1#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized3' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized3' (1#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized4' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized4' (1#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized5' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized5' (1#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reset' (2#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:14862]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_rst_module' (3#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:16457]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_if' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:39644]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_lite_if' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:16952]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized6' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized6' (3#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_lite_if' (4#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:16952]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized7' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized7' (4#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_if' (5#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:39644]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_intrpt' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:40370]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_intrpt' (6#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:40370]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_module' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:38829]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_register' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:18712]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_register' (7#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:18712]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_regdirect' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:20526]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_regdirect' (8#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:20526]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_mux' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:29591]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_mux' (9#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:29591]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_module' (10#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:38829]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_mngr' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:63815]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sm' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:61558]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sm' (11#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:61558]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_cmdsts_if' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:62697]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_cmdsts_if' (12#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:62697]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sts_mngr' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:63204]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sts_mngr' (13#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:63204]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vidreg_module' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:55739]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vregister' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:53625]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vregister' (14#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:53625]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vaddrreg_mux' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:55216]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vaddrreg_mux' (15#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:55216]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vidreg_module' (16#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:55739]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_genlock_mngr' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:58282]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_genlock_mngr' (17#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:58282]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_mngr' (18#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:63815]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_fsync_gen' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:52754]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_fsync_gen' (19#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:52754]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vid_cdc' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:13249]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized8' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized8' (19#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized9' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized9' (19#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized10' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized10' (19#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized11' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized11' (19#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized12' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized12' (19#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized13' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized13' (19#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vid_cdc' (20#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:13249]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sof_gen' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:40980]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sof_gen' (21#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:40980]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_mm2s_linebuf' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:45948]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_afifo_builtin' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:43237]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_afifo_builtin' (32#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:43237]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_skid_buf' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:41227]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_skid_buf' (33#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:41227]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized14' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized14' (33#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized15' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized15' (33#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized16' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized16' (33#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized17' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized17' (33#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized18' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized18' (33#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_mm2s_linebuf' (34#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:45948]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:48516]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_mm2s_full_wrap' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:46666]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_reset' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_reset' (35#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_cmd_status' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:2693]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f' (36#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f' (37#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f' (38#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f' (39#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo' (40#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized0' (40#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized0' (40#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized0' (40#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized0' (40#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_cmd_status' (41#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:2693]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rd_status_cntl' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:13741]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_status_cntl' (42#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:13741]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_pcc' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:7411]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2' (43#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2__parameterized0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2__parameterized0' (43#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_pcc' (44#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:7411]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_addr_cntl' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:9995]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized1' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized1' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized1' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized1' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized1' (44#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized1' (44#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized1' (44#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized1' (44#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_addr_cntl' (45#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:9995]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rddata_cntl' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:12180]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rdmux' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:10676]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rdmux' (46#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:10676]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized2' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized2' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized2' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized2' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized2' (46#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized2' (46#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized2' (46#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized2' (46#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rddata_cntl' (47#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:12180]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rd_sf' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:20200]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized3' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized3' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized3' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized3' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized3' (47#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized3' (47#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized3' (47#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized3' (47#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/5ab6/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg' (71#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/5ab6/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord' (72#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_sf' (73#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:20200]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mm2s_full_wrap' (74#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:46666]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_omit_wrap' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:42721]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_omit_wrap' (75#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:42721]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover' (76#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:48516]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma' (77#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/ed72/hdl/axi_vdma_v6_2_rfs.vhd:69480]
+INFO: [Synth 8-256] done synthesizing module 'Arty_Z7_20_axi_vdma_0_0' (78#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_axi_vdma_0_0/synth/Arty_Z7_20_axi_vdma_0_0.vhd:105]
+Finished RTL Elaboration : Time (s): cpu = 00:05:22 ; elapsed = 00:06:28 . Memory (MB): peak = 647.359 ; gain = 437.715
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:05:23 ; elapsed = 00:06:29 . Memory (MB): peak = 647.359 ; gain = 437.715
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.205 . Memory (MB): peak = 779.023 ; gain = 0.156
+Finished Constraint Validation : Time (s): cpu = 00:05:36 ; elapsed = 00:06:43 . Memory (MB): peak = 779.023 ; gain = 569.379
+Finished Loading Part and Timing Information : Time (s): cpu = 00:05:36 ; elapsed = 00:06:43 . Memory (MB): peak = 779.023 ; gain = 569.379
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:05:36 ; elapsed = 00:06:43 . Memory (MB): peak = 779.023 ; gain = 569.379
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:05:40 ; elapsed = 00:06:48 . Memory (MB): peak = 779.023 ; gain = 569.379
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:05:47 ; elapsed = 00:06:56 . Memory (MB): peak = 779.023 ; gain = 569.379
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:05:58 ; elapsed = 00:07:07 . Memory (MB): peak = 779.023 ; gain = 569.379
+Finished Timing Optimization : Time (s): cpu = 00:06:02 ; elapsed = 00:07:12 . Memory (MB): peak = 800.055 ; gain = 590.410
+Finished Technology Mapping : Time (s): cpu = 00:06:04 ; elapsed = 00:07:13 . Memory (MB): peak = 800.055 ; gain = 590.410
+Finished IO Insertion : Time (s): cpu = 00:06:05 ; elapsed = 00:07:14 . Memory (MB): peak = 800.055 ; gain = 590.410
+Finished Renaming Generated Instances : Time (s): cpu = 00:06:05 ; elapsed = 00:07:14 . Memory (MB): peak = 800.055 ; gain = 590.410
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:06:05 ; elapsed = 00:07:15 . Memory (MB): peak = 800.055 ; gain = 590.410
+Finished Renaming Generated Ports : Time (s): cpu = 00:06:05 ; elapsed = 00:07:15 . Memory (MB): peak = 800.055 ; gain = 590.410
+Finished Handling Custom Attributes : Time (s): cpu = 00:06:05 ; elapsed = 00:07:15 . Memory (MB): peak = 800.055 ; gain = 590.410
+Finished Renaming Generated Nets : Time (s): cpu = 00:06:05 ; elapsed = 00:07:15 . Memory (MB): peak = 800.055 ; gain = 590.410
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    32|
+|2     |FIFO36E1 |     4|
+|3     |LUT1     |   203|
+|4     |LUT2     |   148|
+|5     |LUT3     |   205|
+|6     |LUT4     |   143|
+|7     |LUT5     |   195|
+|8     |LUT6     |   214|
+|9     |RAMB36E1 |     1|
+|10    |SRL16E   |   105|
+|11    |FDPE     |     5|
+|12    |FDR      |   133|
+|13    |FDRE     |  1152|
+|14    |FDSE     |    44|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:06:05 ; elapsed = 00:07:15 . Memory (MB): peak = 800.055 ; gain = 590.410
+synth_design: Time (s): cpu = 00:06:02 ; elapsed = 00:07:08 . Memory (MB): peak = 801.770 ; gain = 502.430

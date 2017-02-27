@@ -1,0 +1,95 @@
+
+*** Running vivado
+    with args -log Arty_Z7_20_xbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Arty_Z7_20_xbar_0.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Users/sbobrowicz/AppData/Roaming/Xilinx/Vivado/init.tcl'
+source Arty_Z7_20_xbar_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 389.656 ; gain = 179.813
+INFO: [Synth 8-638] synthesizing module 'Arty_Z7_20_xbar_0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_xbar_0/synth/Arty_Z7_20_xbar_0.v:59]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_axi_crossbar' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_crossbar_sasd' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_addr_decoder' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_carry_and' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (1#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (2#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' (2#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' (2#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' (2#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized3' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized3' (2#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized4' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized4' (2#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized5' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized5' (2#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized6' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized6' (2#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized7' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized7' (2#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_addr_decoder' (3#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_decerr_slave' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_decerr_slave' (4#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_addr_arbiter_sasd' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_addr_arbiter_sasd' (5#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_splitter' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_splitter' (6#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_splitter__parameterized0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_splitter__parameterized0' (6#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (7#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (7#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (7#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (7#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice' (8#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' (8#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_crossbar_sasd' (9#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_axi_crossbar' (10#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-256] done synthesizing module 'Arty_Z7_20_xbar_0' (11#1) [c:/sam_work/git/digilent/Arty-Z7-20-base/src/bd/Arty_Z7_20/ip/Arty_Z7_20_xbar_0/synth/Arty_Z7_20_xbar_0.v:59]
+Finished RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:29 . Memory (MB): peak = 506.738 ; gain = 296.895
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 506.738 ; gain = 296.895
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.155 . Memory (MB): peak = 752.516 ; gain = 0.016
+Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:43 . Memory (MB): peak = 752.516 ; gain = 542.672
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:43 . Memory (MB): peak = 752.516 ; gain = 542.672
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:43 . Memory (MB): peak = 752.516 ; gain = 542.672
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:44 . Memory (MB): peak = 752.516 ; gain = 542.672
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:46 . Memory (MB): peak = 752.516 ; gain = 542.672
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:01:00 . Memory (MB): peak = 752.516 ; gain = 542.672
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:01 . Memory (MB): peak = 752.516 ; gain = 542.672
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:01:01 . Memory (MB): peak = 752.516 ; gain = 542.672
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:01:02 . Memory (MB): peak = 752.516 ; gain = 542.672
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:01:02 . Memory (MB): peak = 752.516 ; gain = 542.672
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:01:02 . Memory (MB): peak = 752.516 ; gain = 542.672
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:01:02 . Memory (MB): peak = 752.516 ; gain = 542.672
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:01:03 . Memory (MB): peak = 752.516 ; gain = 542.672
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:01:03 . Memory (MB): peak = 752.516 ; gain = 542.672
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     2|
+|2     |LUT2  |    16|
+|3     |LUT3  |    45|
+|4     |LUT4  |    75|
+|5     |LUT5  |    66|
+|6     |LUT6  |   173|
+|7     |MUXF7 |     2|
+|8     |FDRE  |   139|
++------+------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:01:03 . Memory (MB): peak = 752.516 ; gain = 542.672
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:53 . Memory (MB): peak = 752.516 ; gain = 447.082
