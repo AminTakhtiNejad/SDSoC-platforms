@@ -5,7 +5,7 @@
 <Project Version="7" Minor="17" Path="Arty_Z7_20.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="63295f65134149e69e567d00ed9a8645"/>
+    <Option Name="Id" Val="66710da4422940d0975e3d644c1fe7c7"/>
     <Option Name="Part" Val="xc7z020clg400-1"/>
     <Option Name="TargetLanguage" Val="VHDL"/>
     <Option Name="BoardPart" Val="digilentinc.com:arty-z7-20:part0:1.0"/>
@@ -33,9 +33,6 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_clk_wiz_0_0/Arty_Z7_20_clk_wiz_0_0.xci">
-          <Proxy FileSetName="Arty_Z7_20_clk_wiz_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_xlconstant_0_0/Arty_Z7_20_xlconstant_0_0.xci">
           <Proxy FileSetName="Arty_Z7_20_xlconstant_0_0"/>
         </CompFileExtendedInfo>
@@ -51,9 +48,6 @@
         <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_v_tc_0_0/Arty_Z7_20_v_tc_0_0.xci">
           <Proxy FileSetName="Arty_Z7_20_v_tc_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_v_axi4s_vid_out_0_0/Arty_Z7_20_v_axi4s_vid_out_0_0.xci">
-          <Proxy FileSetName="Arty_Z7_20_v_axi4s_vid_out_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_rst_processing_system7_0_142M_0/Arty_Z7_20_rst_processing_system7_0_142M_0.xci">
           <Proxy FileSetName="Arty_Z7_20_rst_processing_system7_0_142M_0"/>
         </CompFileExtendedInfo>
@@ -65,6 +59,9 @@
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_xbar_0/Arty_Z7_20_xbar_0.xci">
           <Proxy FileSetName="Arty_Z7_20_xbar_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_v_axi4s_vid_out_0_0/Arty_Z7_20_v_axi4s_vid_out_0_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_v_axi4s_vid_out_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_processing_system7_0_0/Arty_Z7_20_processing_system7_0_0.xci">
           <Proxy FileSetName="Arty_Z7_20_processing_system7_0_0"/>
@@ -92,6 +89,9 @@
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_axi_dynclk_0_0/Arty_Z7_20_axi_dynclk_0_0.xci">
           <Proxy FileSetName="Arty_Z7_20_axi_dynclk_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Arty_Z7_20.bd" FileRelPathName="ip/Arty_Z7_20_clk_wiz_0_0/Arty_Z7_20_clk_wiz_0_0.xci">
+          <Proxy FileSetName="Arty_Z7_20_clk_wiz_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/imports/hdl/Arty_Z7_20_wrapper.vhd">
